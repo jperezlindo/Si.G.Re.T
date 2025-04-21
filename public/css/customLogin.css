@@ -1,0 +1,82 @@
+body{
+        font-family: 'Concert+One';
+        font-size:16px;
+        font-weight: 300;
+        color: #fff;
+        line-height: 30px;
+        text-align: left;
+        background-color: #fff;
+      }
+
+      .my-container{
+        padding: 200px 0 50px 0;
+        margin: 20px 0 10px 0;
+        opacity: 0.8;
+      }
+
+      .my-form-top{
+        overflow: hidden;
+        padding: 0 25px 0 25px;
+        background: #1A6DDE;
+        -moz-border-radius: 10px 10px 0 0;
+        web-kit-border-radius: 10px 10px 0 0;
+        border-radius: 10px 10px 0 0;
+      }
+
+      .my-form-top-left{
+        float: left;
+        width: 75%;
+        padding-top: 25px;
+        text-align: left;
+      }
+
+      .my-form-top-left p{
+        opacity: 0.8;
+      }
+
+      .my-form-top-right{
+        float: right;
+        width: 25%;
+        padding-top: 25px;
+        font-size: 66px;
+        text-align: right;
+        opacity: 0.3;
+      }
+
+      .my-form-button{
+        padding: 25px 25px 30px 25px;
+        background: #1A6DDE;
+        -moz-border-radius: 0 0 10px 10px;
+        web-kit-border-radius: 0 0 10px 10px;
+        border-radius: 0 0 10px 10px;
+      }
+
+      .my-form-button .my-btn{
+         text-align:center;
+         padding:5px 40px;
+         width:150px;
+      }
+
+      .my -ico{
+
+      }
+      input[type="text"],
+      input[type="password"],
+      textarea,
+      textarea.form-control{
+        height: 50px;
+        vertical-align: middle;
+        background: #fff;
+        border: 3px solid #fff;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 50px;
+      }
+
+      input[type="text"]:focus,
+      input[type="password"]:focus,
+      textarea:focus,
+      textarea.form-control:focus{
+        background: #fff;
+        border: 2px solid rgb(9, 159, 118);
+      }
